@@ -18,7 +18,7 @@ const paymentBRoute =require("./routes/payment")
 
 //DB Connection
 mongoose
-  .connect(process.env.DATABASE, {
+  .connect(process.env.MONGODB_URI||process.env.DATABASE, {
     useNewUrlParser: true,
     useUnifiedTopology: true,
     useCreateIndex: true
@@ -40,7 +40,10 @@ app.use("/api", productRoutes);
 app.use("/api", orderRoutes);
 app.use("/api",paymentBRoute);
 
-
+if(process.env.NODE_EVN== 'production')
+{
+	app.use(express.static ('client/build'));
+}
 //PORT
 const port = process.env.PORT || 8000;
 

@@ -2,7 +2,7 @@ const { API } = require("../../backend");
 
  
 export const getmeToken =(userid,token)=>{
-    return fetch(`${API}payment/gettoken/${userid}`,{
+    return fetch(`${API}/payment/gettoken/${userid}`,{
         method:"GET",
         headers:{
             Accept:"application/json",

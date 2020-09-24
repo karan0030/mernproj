@@ -14,13 +14,14 @@ exports.getOrderById =(req,res,next,id)=>{
 
 exports.createOrder =(req,res)=>{
     req.body.order.user =req.profile
-	console.log("order create")
+	console.log(" ** order create")
     const order = new Order(req.body.order)
     order.save((err,order)=>{
         if(err){
 			console.log(err)
             return res.status(400).json({error:" order not saved in DB"})
         }
+		console.log("all good")
         res.json(order)
     })
 }

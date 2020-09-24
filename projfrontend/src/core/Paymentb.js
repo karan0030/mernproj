@@ -58,9 +58,9 @@ const PaymentB=({ products, setReload = f => f, reload = undefined })=>{
               createOrder(userId,token,orderData)
 
               emptyCart(()=>{
-                  console.log("crash error")
+                  console.log("cart empty")
               })
-              //TODO: force reload
+              
               setReload(!reload)
             })
             .catch(error => {
