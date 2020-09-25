@@ -1,5 +1,5 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).<br />
-Aosted @ https://shielded-lowlands-41214.herokuapp.com/ <br />
+Hosted @ https://shielded-lowlands-41214.herokuapp.com/ <br />
 Admin detials: karan@gmail.com password: karan.<br />
 For payment use braintree dumpy cards @ https://developers.braintreepayments.com/guides/credit-cards/testing-go-live/php .<br /> 
 Sample card 378282246310005  expiry :12/21. 
