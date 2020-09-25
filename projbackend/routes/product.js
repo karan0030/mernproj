@@ -5,6 +5,8 @@ const {
     getProductById,createProduct,getProduct,getPhoto,
     updateProduct,deleteProduct,getAllProduct,getAllUniqueCategory
 }=require("../controllers/product")
+
+
 const { isSignedIn, isAuthenticated, isAdmin } = require("../controllers/auth");
 const{ getUserById} = require("../controllers/user");
 
