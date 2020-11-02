@@ -2,9 +2,9 @@
 
 
 **Hosted** @ https://shielded-lowlands-41214.herokuapp.com/ <br />
-**Admin details:** karan@gmail.com password: karan.<br />
+**Admin details:**   karan@gmail.com **password:**   karan.<br />
 **For payment use braintree dumpy cards** @ https://developers.braintreepayments.com/guides/credit-cards/testing-go-live/php .<br /> 
-**Sample card 378282246310005  expiry :12/21. 
+**Sample card 378282246310005  expiry :12/21. <br/>
 Sometimes gives error because of cart empty but it is at there site refresh .Go back add product and pay.**  <br /> 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).<br />
