@@ -1,4 +1,4 @@
-## Deatails to run project.<br/>
+## Details to run project.<br/>
 
 
 **Hosted** @ https://shielded-lowlands-41214.herokuapp.com/ <br />
